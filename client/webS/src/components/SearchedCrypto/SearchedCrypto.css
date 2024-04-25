@@ -1,0 +1,43 @@
+.popularCrypto-list-wrapper {
+  position: absolute;
+  width: 400px;
+  max-height: 400px;
+  overflow-y: auto;
+  border-radius: 0 0 30px 30px;
+  background-color: #212639;
+}
+.popularCrypto-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 30px;
+  border-top: 1px solid #2f354c;
+  color: #9096ab;
+}
+.crypto-name {
+  font-weight: 600;
+}
+.crypto-name:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.crypto-abbreviation {
+  font-size: 12px;
+}
+.crypto-price-wrapper {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.crypto-price {
+    font-size: 14px;
+  font-weight: 500;
+}
+.add-icon {
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+}
+.add-icon:hover {
+  color: green;
+}

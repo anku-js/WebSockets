@@ -1,0 +1,48 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.app {
+  font-family: "Poppins", sans-serif;
+  height: 100vh;
+  background-color: #292f4b;
+}
+
+.navbar-text {
+  font-size: 30px;
+  margin-left: 20px;
+}
+.cryptos {
+  width: fit-content;
+  margin: 50px auto;
+  display: flex;
+  gap: 20px;
+}
+.crypto-container {
+  background: linear-gradient(
+    180deg,
+    hsla(0, 0%, 55%, 0.2),
+    rgba(72, 72, 72, 0)
+  );
+  box-shadow: 0 5px 10px #192231;
+  color: #fff;
+  border-radius: 10px;
+  width: 240px;
+}
+.crypto-info {
+  padding: 20px;
+}
+.crypto-type {
+  font-size: 18px;
+  color: linear-gradient(90.15deg, #6db8fd 0.17%, #1774ff 104.9%);
+  -webkit-text-fill-color: transparent;
+  background: -webkit-linear-gradient(90.15deg, #6db8fd 0.17%, #1774ff 104.9%);
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+.crypto-value h1 {
+  margin-top: 10px;
+  font-size: 26px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
